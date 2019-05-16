@@ -1,0 +1,25 @@
+{
+  "name": "obj-str-transf",
+  "version": "1.0.0",
+  "description": "transform the object and string with symbol",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --hide-modules --config build/webpack.config.js"
+  },
+  "keywords": [
+    "object",
+    "string",
+    "transform"
+  ],
+  "author": "zhang.tigerkin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wangtaigong/obj-str-transf"
+  },
+  "devDependencies": {
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  }
+}
